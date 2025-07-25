@@ -12,7 +12,7 @@ int main()
         Cupon100left =Cupon%100;
         Cupon100=(Cupon-Cupon100left)/100;
         Cupon10left=Cupon%10;
-        Cupon10=(Cupon100left-Cupon10left)/10;
+        Cupon10=(Cupon100-Cupon10left)/10;
         printf("Cupon %d\n",Cupon);
         printf("Cupon100 :%d\n",Cupon100);
         printf("Cupon10 %d\n",Cupon10);
